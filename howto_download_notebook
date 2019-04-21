@@ -1,0 +1,14 @@
+naoya@naoya-UX330UAK:~$ cd ドキュメント
+
+naoya@naoya-UX330UAK:~/ドキュメント$ ls #現在地のファイル参照
+ GOALOOK                    deep_learininng_from_zero      後期
+'PPT課題_Naoya Miki.pptx'  '「成長の軌跡 三木直也」.odt'   香り
+ RAKUTEN                   '「成長の軌跡 三木直也」.pdf'   返済計画.ods
+ ViberDownloads             ブタイゼミ.jpg                '留学 三木直也.docx'
+ ZEROCOLOR                  意思決定論                    '留学 三木直也.pdf'
+naoya@naoya-UX330UAK:~/ドキュメント$ cd deep_learininng_from_zero/ #移動
+naoya@naoya-UX330UAK:~/ドキュメント/deep_learininng_from_zero$ git branch
+* master
+naoya@naoya-UX330UAK:~/ドキュメント/deep_learininng_from_zero$ git pull origin master #ダウンロード
+naoya@naoya-UX330UAK:~/ドキュメント/deep_learininng_from_zero$ ls
+README.md  chapter2_perceptron.ipynb  chapter3_neural_network.ipynb
